@@ -48,14 +48,18 @@ body {
 }
 
 /* Hero Section */
+/* Hero Section */
 .hero-section {
-  background-image: url('https://c1.wallpaperflare.com/preview/811/367/789/technology-computer-creative-design-thumbnail.jpg'); /* Background Image */
+  background-image: url('https://c1.wallpaperflare.com/preview/811/367/789/technology-computer-creative-design-thumbnail.jpg');
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 100px 20px;
+  padding-top: 120px; /* Increased top padding */
+  padding-bottom: 80px; /* Added some padding at the bottom */
   background-position: center;
+  margin-top: 60px; /* Added margin-top to ensure space between navbar and hero */
 }
+
 
 .hero-section h1 {
   font-size: 3rem;
