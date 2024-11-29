@@ -17,7 +17,8 @@ body {
 .navbar {
   background-color: #343a40;
   padding: 1rem;
-  position: static; /* Changed from sticky to static */
+  position: sticky;
+  top: 0;
   z-index: 10;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -50,7 +51,7 @@ body {
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 120px 20px; /* Increased padding top to create space between navbar and hero section */
+  padding: 100px 20px;
   background-position: center;
 }
 
